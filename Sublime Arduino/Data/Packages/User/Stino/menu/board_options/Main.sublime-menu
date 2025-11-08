@@ -1,0 +1,19 @@
+[
+    {
+        "caption": "Arduino", 
+        "children": [
+            {
+                "caption": "\u4e3b\u63a7\u677f\u9009\u9879", 
+                "children": [
+                    {
+                        "caption": "\u65e0", 
+                        "command": "none_command"
+                    }
+                ], 
+                "id": "board_options"
+            }
+        ], 
+        "id": "arduino", 
+        "mnemonic": "A"
+    }
+]

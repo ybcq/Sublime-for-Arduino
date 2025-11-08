@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Autoprefixer",
+		"BracketHighlighter",
+		"ChineseLocalizations",
+		"ColorPicker",
+		"ConvertToUTF8",
+		"CTags",
+		"DocBlockr",
+		"Emmet",
+		"IMESupport",
+		"Package Control",
+		"SFTP",
+		"Stino-new-stino",
+		"Tagify"
+	]
+}

@@ -1,0 +1,19 @@
+[
+    {
+        "caption": "Arduino", 
+        "children": [
+            {
+                "caption": "\u5bfc\u5165\u5e93", 
+                "children": [
+                    {
+                        "caption": "\u65e0", 
+                        "command": "none_command"
+                    }
+                ], 
+                "id": "import_library"
+            }
+        ], 
+        "id": "arduino", 
+        "mnemonic": "A"
+    }
+]

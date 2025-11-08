@@ -1,0 +1,480 @@
+[
+    {
+        "caption": "Arduino", 
+        "children": [
+            {
+                "caption": "\u66f4\u65b0\u83dc\u5355", 
+                "command": "update_menu", 
+                "id": "update_menu"
+            }, 
+            {
+                "caption": "-"
+            }, 
+            {
+                "caption": "\u65b0\u5efa\u9879\u76ee", 
+                "command": "new_sketch", 
+                "id": "new_sketch"
+            }, 
+            {
+                "caption": "\u9879\u76ee\u5e93", 
+                "id": "sketchbook"
+            }, 
+            {
+                "caption": "\u793a\u4f8b", 
+                "id": "examples"
+            }, 
+            {
+                "caption": "-"
+            }, 
+            {
+                "caption": "\u5bfc\u5165\u5e93", 
+                "id": "import_library"
+            }, 
+            {
+                "caption": "\u6253\u5f00\u9879\u76ee\u76ee\u5f55", 
+                "command": "show_sketch_folder", 
+                "id": "show_sketch_folder"
+            }, 
+            {
+                "caption": "-"
+            }, 
+            {
+                "caption": "\u9a8c\u8bc1/\u7f16\u8bd1", 
+                "command": "compile_sketch", 
+                "id": "compile_sketch"
+            }, 
+            {
+                "caption": "\u4e0b\u8f7d", 
+                "command": "upload_sketch", 
+                "id": "upload_sketch"
+            }, 
+            {
+                "caption": "\u4f7f\u7528\u7f16\u7a0b\u5668\u4e0b\u8f7d", 
+                "command": "upload_using_programmer", 
+                "id": "upload_using_programmer"
+            }, 
+            {
+                "caption": "\u7f16\u8bd1\u9009\u9879", 
+                "children": [
+                    {
+                        "caption": "\u989d\u5916\u7f16\u8bd1\u53c2\u6570", 
+                        "command": "set_extra_flag", 
+                        "id": "set_extra_flag"
+                    }, 
+                    {
+                        "caption": "\u5b8c\u5168\u7f16\u8bd1", 
+                        "checkbox": true, 
+                        "command": "toggle_full_compilation", 
+                        "id": "full_compilation"
+                    }, 
+                    {
+                        "caption": "\u663e\u793a\u7f16\u8bd1\u8be6\u7ec6\u4fe1\u606f", 
+                        "checkbox": true, 
+                        "command": "show_compilation_output", 
+                        "id": "show_compilation_output"
+                    }, 
+                    {
+                        "caption": "\u663e\u793a\u4e0b\u8f7d\u8be6\u7ec6\u4fe1\u606f", 
+                        "checkbox": true, 
+                        "command": "show_upload_output", 
+                        "id": "show_upload_output"
+                    }, 
+                    {
+                        "caption": "\u4e0b\u8f7d\u540e\u6821\u9a8c\u4ee3\u7801", 
+                        "checkbox": true, 
+                        "command": "verify_code", 
+                        "id": "verify_code"
+                    }, 
+                    {
+                        "caption": "\u4ec5\u7528GCC\u7f16\u8bd1(\u4e0d\u4f7f\u7528Arduino\u6838\u5fc3\u4ee3\u7801)", 
+                        "checkbox": true, 
+                        "command": "toggle_bare_gcc_only", 
+                        "id": "toggle_bare_gcc_only"
+                    }, 
+                    {
+                        "caption": "\u9009\u62e9\u7f16\u8bd1\u76ee\u5f55", 
+                        "command": "choose_build_folder", 
+                        "id": "choose_build_folder"
+                    }, 
+                    {
+                        "caption": "-"
+                    }, 
+                    {
+                        "args": {
+                            "file": "${packages}/Stino-new-stino/preset/platform.settings"
+                        }, 
+                        "caption": "Platform File Settings - Default", 
+                        "command": "open_file"
+                    }, 
+                    {
+                        "args": {
+                            "file": "${packages}/User/Stino/preset/platform.settings"
+                        }, 
+                        "caption": "Platform File Settings - User", 
+                        "command": "open_file"
+                    }, 
+                    {
+                        "caption": "-"
+                    }, 
+                    {
+                        "args": {
+                            "file": "${packages}/Stino-new-stino/preset/ram_size.settings"
+                        }, 
+                        "caption": "Ram Size Settings - Default", 
+                        "command": "open_file"
+                    }, 
+                    {
+                        "args": {
+                            "file": "${packages}/User/Stino/preset/ram_size.settings"
+                        }, 
+                        "caption": "Ram Size Settings - User", 
+                        "command": "open_file"
+                    }, 
+                    {
+                        "caption": "-"
+                    }
+                ], 
+                "id": "build_options"
+            }, 
+            {
+                "caption": "-"
+            }, 
+            {
+                "caption": "\u4e3b\u63a7\u677f", 
+                "id": "boards"
+            }, 
+            {
+                "caption": "\u4e3b\u63a7\u677f\u9009\u9879", 
+                "id": "board_options"
+            }, 
+            {
+                "caption": "-"
+            }, 
+            {
+                "caption": "\u7f16\u7a0b\u5668", 
+                "id": "programmers"
+            }, 
+            {
+                "caption": "\u70e7\u5f55Bootloader", 
+                "command": "burn_bootloader", 
+                "id": "burn_bootloader"
+            }, 
+            {
+                "caption": "-"
+            }, 
+            {
+                "caption": "\u4e32\u53e3", 
+                "id": "serial_port"
+            }, 
+            {
+                "caption": "\u4e32\u53e3\u76d1\u89c6\u5668", 
+                "children": [
+                    {
+                        "caption": "\u8fd0\u884c", 
+                        "checkbox": true, 
+                        "command": "run_serial_monitor", 
+                        "id": "run_serial_monitor"
+                    }, 
+                    {
+                        "caption": "\u53d1\u9001", 
+                        "command": "send_serial_message", 
+                        "id": "send_serial_message"
+                    }, 
+                    {
+                        "caption": "\u6ce2\u7279\u7387", 
+                        "children": [
+                            {
+                                "args": {
+                                    "baudrate": 300
+                                }, 
+                                "caption": "300", 
+                                "checkbox": true, 
+                                "command": "choose_baudrate"
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 1200
+                                }, 
+                                "caption": "1200", 
+                                "checkbox": true, 
+                                "command": "choose_baudrate"
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 2400
+                                }, 
+                                "caption": "2400", 
+                                "checkbox": true, 
+                                "command": "choose_baudrate"
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 4800
+                                }, 
+                                "caption": "4800", 
+                                "checkbox": true, 
+                                "command": "choose_baudrate"
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 9600
+                                }, 
+                                "caption": "9600", 
+                                "checkbox": true, 
+                                "command": "choose_baudrate"
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 14400
+                                }, 
+                                "caption": "14400", 
+                                "checkbox": true, 
+                                "command": "choose_baudrate"
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 19200
+                                }, 
+                                "caption": "19200", 
+                                "checkbox": true, 
+                                "command": "choose_baudrate"
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 28800
+                                }, 
+                                "caption": "28800", 
+                                "checkbox": true, 
+                                "command": "choose_baudrate"
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 38400
+                                }, 
+                                "caption": "38400", 
+                                "checkbox": true, 
+                                "command": "choose_baudrate"
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 57600
+                                }, 
+                                "caption": "57600", 
+                                "checkbox": true, 
+                                "command": "choose_baudrate"
+                            }, 
+                            {
+                                "args": {
+                                    "baudrate": 115200
+                                }, 
+                                "caption": "115200", 
+                                "checkbox": true, 
+                                "command": "choose_baudrate"
+                            }
+                        ], 
+                        "id": "baudrate"
+                    }, 
+                    {
+                        "caption": "\u884c\u5c3e", 
+                        "children": [
+                            {
+                                "args": {
+                                    "line_ending": ""
+                                }, 
+                                "caption": "\u65e0", 
+                                "checkbox": true, 
+                                "command": "choose_line_ending", 
+                                "id": "line_ending_none"
+                            }, 
+                            {
+                                "args": {
+                                    "line_ending": "\n"
+                                }, 
+                                "caption": "\u6362\u884c", 
+                                "checkbox": true, 
+                                "command": "choose_line_ending", 
+                                "id": "line_ending_new"
+                            }, 
+                            {
+                                "args": {
+                                    "line_ending": "\r"
+                                }, 
+                                "caption": "\u56de\u8f66", 
+                                "checkbox": true, 
+                                "command": "choose_line_ending", 
+                                "id": "line_ending_return"
+                            }, 
+                            {
+                                "args": {
+                                    "line_ending": "\r\n"
+                                }, 
+                                "caption": "\u6362\u884c\u548c\u56de\u8f66", 
+                                "checkbox": true, 
+                                "command": "choose_line_ending", 
+                                "id": "line_ending_both"
+                            }
+                        ], 
+                        "id": "line_ending"
+                    }, 
+                    {
+                        "caption": "\u663e\u793a\u6a21\u5f0f", 
+                        "children": [
+                            {
+                                "args": {
+                                    "display_mode": "Text"
+                                }, 
+                                "caption": "\u6587\u672c", 
+                                "checkbox": true, 
+                                "command": "choose_display_mode", 
+                                "id": "display_mode_text"
+                            }, 
+                            {
+                                "args": {
+                                    "display_mode": "Ascii"
+                                }, 
+                                "caption": "Ascii", 
+                                "checkbox": true, 
+                                "command": "choose_display_mode", 
+                                "id": "display_mode_sacii"
+                            }, 
+                            {
+                                "args": {
+                                    "display_mode": "Hex"
+                                }, 
+                                "caption": "\u5341\u516d\u8fdb\u5236", 
+                                "checkbox": true, 
+                                "command": "choose_display_mode", 
+                                "id": "display_mode_hex"
+                            }
+                        ], 
+                        "id": "display_mode"
+                    }
+                ], 
+                "id": "serial_monitor"
+            }, 
+            {
+                "caption": "-"
+            }, 
+            {
+                "caption": "\u81ea\u52a8\u683c\u5f0f\u5316", 
+                "command": "auto_format", 
+                "id": "auto_format"
+            }, 
+            {
+                "caption": "\u6253\u5305\u9879\u76ee", 
+                "command": "archive_sketch", 
+                "id": "archive_sketch"
+            }, 
+            {
+                "caption": "-"
+            }, 
+            {
+                "caption": "\u53c2\u6570\u8bbe\u7f6e", 
+                "children": [
+                    {
+                        "caption": "\u9009\u62e9Arduino\u7a0b\u5e8f\u76ee\u5f55", 
+                        "command": "choose_arduino_folder", 
+                        "id": "choose_arduino_folder"
+                    }, 
+                    {
+                        "caption": "\u66f4\u6539\u9879\u76ee\u5e93\u76ee\u5f55", 
+                        "command": "change_sketchbook_folder", 
+                        "id": "change_sketchbook_folder"
+                    }, 
+                    {
+                        "caption": "\u5927\u578b\u9879\u76ee", 
+                        "checkbox": true, 
+                        "command": "toggle_big_project", 
+                        "id": "toggle_big_project"
+                    }, 
+                    {
+                        "caption": "\u5728\u65b0\u7a97\u53e3\u91cc\u6253\u5f00\u9879\u76ee", 
+                        "checkbox": true, 
+                        "command": "toggle_open_project_in_new_window", 
+                        "id": "toggle_open_project_in_new_window"
+                    }
+                ], 
+                "id": "stino_preferences"
+            }, 
+            {
+                "caption": "\u8bed\u8a00", 
+                "id": "stino_lang"
+            }, 
+            {
+                "caption": "-"
+            }, 
+            {
+                "caption": "\u53c2\u8003\u624b\u518c", 
+                "children": [
+                    {
+                        "args": {
+                            "url": "Guide_index"
+                        }, 
+                        "caption": "\u5feb\u901f\u5165\u95e8", 
+                        "command": "open_ref", 
+                        "id": "getting_started"
+                    }, 
+                    {
+                        "args": {
+                            "url": "Guide_Troubleshooting"
+                        }, 
+                        "caption": "\u89e3\u51b3\u95ee\u9898", 
+                        "command": "open_ref", 
+                        "id": "troubleshooting"
+                    }, 
+                    {
+                        "args": {
+                            "url": "index"
+                        }, 
+                        "caption": "\u53c2\u8003\u624b\u518c", 
+                        "command": "open_ref", 
+                        "id": "stino_reference"
+                    }, 
+                    {
+                        "caption": "\u5728\u53c2\u8003\u624b\u518c\u4e2d\u67e5\u627e", 
+                        "command": "find_in_reference", 
+                        "id": "find_in_reference"
+                    }, 
+                    {
+                        "args": {
+                            "url": "FAQ"
+                        }, 
+                        "caption": "\u5e38\u89c1\u95ee\u9898", 
+                        "command": "open_ref", 
+                        "id": "faq"
+                    }, 
+                    {
+                        "args": {
+                            "url": "http://arduino.cc"
+                        }, 
+                        "caption": "\u8bbf\u95eeArduino\u7f51\u7ad9", 
+                        "command": "open_url", 
+                        "id": "about_arduino"
+                    }
+                ], 
+                "id": "arduino_references"
+            }, 
+            {
+                "caption": "-"
+            }, 
+            {
+                "caption": "\u5e2e\u52a9", 
+                "children": [
+                    {
+                        "caption": "\u6587\u6863", 
+                        "command": "stino_documents", 
+                        "id": "stino_documents"
+                    }, 
+                    {
+                        "caption": "\u5173\u4e8eStino", 
+                        "command": "about_stino", 
+                        "id": "about_stino"
+                    }
+                ], 
+                "id": "stino_help"
+            }
+        ], 
+        "id": "arduino", 
+        "mnemonic": "A"
+    }
+]

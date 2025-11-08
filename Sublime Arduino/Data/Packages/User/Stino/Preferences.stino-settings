@@ -1,0 +1,20 @@
+{
+    "arduino_ide_path": "C:\\TEMP", 
+    "build_path": "C:\\TEMP", 
+    "build_verbose": false, 
+    "full_compilation": true, 
+    "ide.Arduino_STM32-master.stm32f1.genericSTM32F103V": [
+        "ide.Arduino_STM32-master.stm32f1.genericSTM32F103V.device_variant.STM32F103VE", 
+        "ide.Arduino_STM32-master.stm32f1.genericSTM32F103V.upload_method.serialMethod", 
+        "ide.Arduino_STM32-master.stm32f1.genericSTM32F103V.cpu_speed.speed_72mhz", 
+        "ide.Arduino_STM32-master.stm32f1.genericSTM32F103V.opt.osstd"
+    ], 
+    "ide.arduino.avr.mega": [
+        "ide.arduino.avr.mega.cpu.atmega2560"
+    ], 
+    "lang_id": "zh_cn", 
+    "serial_port": "COM1", 
+    "sketchbook_path": "C:\\TEMP", 
+    "target_board_id": "ide.arduino.avr.mega", 
+    "target_programmer_id": "ide.arduino.avr.avrisp"
+}

@@ -1,0 +1,19 @@
+[
+    {
+        "caption": "Arduino", 
+        "children": [
+            {
+                "caption": "\u9879\u76ee\u5e93", 
+                "children": [
+                    {
+                        "caption": "\u65e0", 
+                        "command": "none_command"
+                    }
+                ], 
+                "id": "sketchbook"
+            }
+        ], 
+        "id": "arduino", 
+        "mnemonic": "A"
+    }
+]

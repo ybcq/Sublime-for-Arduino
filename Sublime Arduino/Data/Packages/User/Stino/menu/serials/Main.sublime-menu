@@ -1,0 +1,39 @@
+[
+    {
+        "caption": "Arduino", 
+        "children": [
+            {
+                "caption": "\u4e32\u53e3", 
+                "children": [
+                    {
+                        "args": {
+                            "serial_port": "COM1"
+                        }, 
+                        "caption": "COM1", 
+                        "checkbox": true, 
+                        "command": "select_serial_port"
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": "COM3"
+                        }, 
+                        "caption": "COM3", 
+                        "checkbox": true, 
+                        "command": "select_serial_port"
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": "COM4"
+                        }, 
+                        "caption": "COM4", 
+                        "checkbox": true, 
+                        "command": "select_serial_port"
+                    }
+                ], 
+                "id": "serial_port"
+            }
+        ], 
+        "id": "arduino", 
+        "mnemonic": "A"
+    }
+]
